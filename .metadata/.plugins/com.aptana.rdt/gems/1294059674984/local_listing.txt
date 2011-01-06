@@ -1,0 +1,402 @@
+abstract (1.0.0)
+    Author: makoto kuwata
+    Homepage: http://rubyforge.org/projects/abstract
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    a library which enable you to define abstract method in Ruby
+
+actionmailer (3.0.1)
+    Author: David Heinemeier Hansson
+    Rubyforge: http://rubyforge.org/projects/actionmailer
+    Homepage: http://www.rubyonrails.org
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Email composition, delivery, and receiving framework (part of
+    Rails).
+
+actionpack (3.0.1, 1.13.6)
+    Author: David Heinemeier Hansson
+    Rubyforge: http://rubyforge.org/projects/actionpack
+    Homepage: http://www.rubyonrails.org
+    Installed at (3.0.1): C:/Ruby192/lib/ruby/gems/1.9.1
+                 (1.13.6): C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Web-flow and rendering framework putting the VC in MVC (part of
+    Rails).
+
+actionwebservice (1.2.6)
+    Author: Leon Breedt
+    Rubyforge: http://rubyforge.org/projects/aws
+    Homepage: http://www.rubyonrails.org
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Web service support for Action Pack.
+
+activemodel (3.0.1)
+    Author: David Heinemeier Hansson
+    Rubyforge: http://rubyforge.org/projects/activemodel
+    Homepage: http://www.rubyonrails.org
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    A toolkit for building modeling frameworks (part of Rails).
+
+activerecord (3.0.1, 1.15.6)
+    Author: David Heinemeier Hansson
+    Rubyforge: http://rubyforge.org/projects/activerecord
+    Homepage: http://www.rubyonrails.org
+    Installed at (3.0.1): C:/Ruby192/lib/ruby/gems/1.9.1
+                 (1.15.6): C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Object-relational mapper framework (part of Rails).
+
+activeresource (3.0.1)
+    Author: David Heinemeier Hansson
+    Rubyforge: http://rubyforge.org/projects/activeresource
+    Homepage: http://www.rubyonrails.org
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    REST modeling framework (part of Rails).
+
+activesupport (3.0.1, 2.3.10, 1.4.4)
+    Author: David Heinemeier Hansson
+    Rubyforge: http://rubyforge.org/projects/activesupport
+    Homepage: http://www.rubyonrails.org
+    Installed at (3.0.1): C:/Ruby192/lib/ruby/gems/1.9.1
+                 (2.3.10): C:/Ruby192/lib/ruby/gems/1.9.1
+                 (1.4.4): C:/Ruby192/lib/ruby/gems/1.9.1
+
+    A toolkit of support libraries and Ruby core extensions extracted
+    from the Rails framework.
+
+archive-tar-minitar (0.5.2)
+    Author: Austin Ziegler, Mauricio Ferna'ndez
+    Rubyforge: http://rubyforge.org/projects/ruwiki
+    Homepage: http://rubyforge.org/projects/ruwiki/
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Provides POSIX tarchive management from Ruby programs.
+
+arel (1.0.1)
+    Authors: Bryan Helmkamp, Nick Kallen, Emilio Tagua
+    Rubyforge: http://rubyforge.org/projects/arel
+    Homepage: http://github.com/brynary/arel
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Arel is a relational algebra engine for Ruby
+
+builder (2.1.2)
+    Author: Jim Weirich
+    Homepage: http://onestepback.org
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Builders for MarkUp.
+
+bundler (1.0.3)
+    Authors: Carl Lerche, Yehuda Katz, André Arko
+    Rubyforge: http://rubyforge.org/projects/bundler
+    Homepage: http://gembundler.com
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    The best way to manage your application's dependencies
+
+cgi_multipart_eof_fix (2.5.0)
+    Author: Evan Weaver
+    Rubyforge: http://rubyforge.org/projects/mongrel
+    Homepage:
+    http://blog.evanweaver.com/pages/code#cgi_multipart_eof_fix
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Fix an exploitable bug in CGI multipart parsing.
+
+columnize (0.3.2)
+    Author: R. Bernstein
+    Rubyforge: http://rubyforge.org/projects/columnize
+    Homepage: http://rubyforge.org/projects/rocky-hacks/columnize
+    License: GPL2
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Module to format an Array as an Array of String aligned in columns
+
+configuration (1.2.0)
+    Author: Ara T. Howard
+    Rubyforge: http://rubyforge.org/projects/codeforpeople
+    Homepage: http://github.com/ahoward/configuration/tree/master
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    configuration
+
+diff-lcs (1.1.2)
+    Author: 
+    Rubyforge: http://rubyforge.org/projects/ruwiki
+    Homepage: http://rubyforge.org/projects/ruwiki/
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Provides a list of changes that represent the difference between two
+    sequenced collections.
+
+erubis (2.6.6)
+    Author: makoto kuwata
+    Rubyforge: http://rubyforge.org/projects/erubis
+    Homepage: http://www.kuwata-lab.com/erubis/
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    a fast and extensible eRuby implementation which supports
+    multi-language
+
+extlib (0.9.15)
+    Author: Dan Kubb
+    Rubyforge: http://rubyforge.org/projects/extlib
+    Homepage: http://github.com/datamapper/extlib
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Support library for DataMapper and Merb
+
+fastthread (1.0.1)
+    Platform: i386-mswin32
+    Author: MenTaLguY <mental@rydia.net>
+    Rubyforge: http://rubyforge.org/projects/mongrel
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Optimized replacement for thread.rb primitives
+
+gem_plugin (0.2.3)
+    Author: Zed A. Shaw
+    Rubyforge: http://rubyforge.org/projects/mongrel
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    A plugin system based on rubygems that uses dependencies only
+
+heroku (1.14.8)
+    Author: Heroku
+    Homepage: http://github.com/heroku/heroku
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Client library and CLI to deploy Rails apps on Heroku.
+
+highline (1.6.1)
+    Author: James Edward Gray II
+    Rubyforge: http://rubyforge.org/projects/highline
+    Homepage: http://highline.rubyforge.org
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    HighLine is a high-level command-line IO library.
+
+i18n (0.4.2)
+    Authors: Sven Fuchs, Joshua Harvey, Matt Aimonetti, Stephan Soller,
+    Saimon Moore
+    Rubyforge: http://rubyforge.org/projects/[none]
+    Homepage: http://github.com/svenfuchs/i18n
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    New wave Internationalization support for Ruby
+
+json_pure (1.4.6)
+    Author: Florian Frank
+    Rubyforge: http://rubyforge.org/projects/json
+    Homepage: http://flori.github.com/json
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    JSON Implementation for Ruby
+
+launchy (0.3.7)
+    Author: Jeremy Hinegardner
+    Rubyforge: http://rubyforge.org/projects/copiousfreetime
+    Homepage: http://copiousfreetime.rubyforge.org/launchy/
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Launchy is helper class for launching cross-platform applications in
+    a fire and forget manner
+
+linecache (0.43)
+    Platform: mswin32
+    Author: R. Bernstein
+    Rubyforge: http://rubyforge.org/projects/rocky-hacks
+    Homepage: http://rubyforge.org/projects/rocky-hacks/linecache
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Read file with caching
+
+mail (2.2.9)
+    Author: Mikel Lindsaar
+    Homepage: http://github.com/mikel/mail
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Mail provides a nice Ruby DSL for making, sending and reading
+    emails.
+
+mime-types (1.16)
+    Author: Austin Ziegler
+    Rubyforge: http://rubyforge.org/projects/mime-types
+    Homepage: http://mime-types.rubyforge.org/
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Manages a MIME Content-Type database that will return the
+    Content-Type for a given filename.
+
+minitest (1.6.0)
+    Author: 
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    This minitest is bundled with Ruby
+
+mongrel (1.1.5)
+    Platform: x86-mswin32-60
+    Author: Zed A. Shaw
+    Rubyforge: http://rubyforge.org/projects/mongrel
+    Homepage: http://mongrel.rubyforge.org
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    A small fast HTTP library and server that runs Rails, Camping, Nitro
+    and Iowa apps.
+
+mysql (2.8.1)
+    Platform: x86-mingw32
+    Author: TOMITA Masahiro
+    Rubyforge: http://rubyforge.org/projects/mysql-win
+    Homepage: http://mysql-win.rubyforge.org
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    This is the MySQL API module for Ruby
+
+mysql2 (0.2.6)
+    Platform: x86-mingw32
+    Author: Brian Lopez
+    Homepage: http://github.com/brianmario/mysql2
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    A simple, fast Mysql library for Ruby, binding to libmysql
+
+polyglot (0.3.1)
+    Author: Clifford Heath
+    Rubyforge: http://rubyforge.org/projects/polyglot
+    Homepage: http://polyglot.rubyforge.org
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Allows custom language loaders for specified file extensions to be
+    hooked into require
+
+rack (1.2.1)
+    Author: Christian Neukirchen
+    Rubyforge: http://rubyforge.org/projects/rack
+    Homepage: http://rack.rubyforge.org
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    a modular Ruby webserver interface
+
+rack-mount (0.6.13)
+    Author: Joshua Peek
+    Homepage: http://github.com/josh/rack-mount
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Stackable dynamic tree based Rack router
+
+rack-test (0.5.6)
+    Author: Bryan Helmkamp
+    Rubyforge: http://rubyforge.org/projects/rack-test
+    Homepage: http://github.com/brynary/rack-test
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Simple testing API built on Rack
+
+rails (3.0.1)
+    Author: David Heinemeier Hansson
+    Rubyforge: http://rubyforge.org/projects/rails
+    Homepage: http://www.rubyonrails.org
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Full-stack web application framework.
+
+railties (3.0.1)
+    Author: David Heinemeier Hansson
+    Rubyforge: http://rubyforge.org/projects/rails
+    Homepage: http://www.rubyonrails.org
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Tools for creating, working with, and running Rails applications.
+
+rake (0.8.7)
+    Author: 
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    This rake is bundled with Ruby
+
+rdoc (2.5.8)
+    Author: 
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    This rdoc is bundled with Ruby
+
+rest-client (1.6.1)
+    Authors: Adam Wiggins, Julien Kirch
+    Rubyforge: http://rubyforge.org/projects/rest-client
+    Homepage: http://github.com/archiloque/rest-client
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Simple REST client for Ruby, inspired by microframework syntax for
+    specifying actions.
+
+ruby-debug-base (0.10.3)
+    Platform: mswin32
+    Author: Kent Sibilev
+    Rubyforge: http://rubyforge.org/projects/ruby-debug
+    Homepage: http://rubyforge.org/projects/ruby-debug/
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Fast Ruby debugger - core component
+
+ruby-debug-ide (0.4.5)
+    Author: Markus Barchfeld, Martin Krauskopf
+    Rubyforge: http://rubyforge.org/projects/debug-commons
+    Homepage: http://rubyforge.org/projects/debug-commons/
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    IDE interface for ruby-debug.
+
+ruby_core_source (0.1.4)
+    Author: Mark Moseley
+    Homepage: http://github.com/mark-moseley/ruby_core_source
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Retrieve Ruby core source files
+
+sqlite3-ruby (1.3.2)
+    Platform: x86-mingw32
+    Authors: Jamis Buck, Luis Lavena, Aaron Patterson
+    Rubyforge: http://rubyforge.org/projects/sqlite3-ruby
+    Homepage: http://github.com/luislavena/sqlite3-ruby
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    This module allows Ruby programs to interface with the SQLite3
+    database engine (http://www.sqlite.org)
+
+templater (1.0.0)
+    Author: Jonas Nicklas
+    Rubyforge: http://rubyforge.org/projects/templater
+    Homepage: http://github.com/jnicklas/templater
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Templater has the ability to both copy files from A to B and also to
+    render templates using ERB
+
+thor (0.14.3)
+    Authors: Yehuda Katz, José Valim
+    Rubyforge: http://rubyforge.org/projects/textmate
+    Homepage: http://yehudakatz.com
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    A scripting framework that replaces rake, sake and rubigen
+
+treetop (1.4.8)
+    Author: Nathan Sobo
+    Homepage: http://functionalform.blogspot.com
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    A Ruby-based text parsing and interpretation DSL
+
+tzinfo (0.3.23)
+    Author: Philip Ross
+    Rubyforge: http://rubyforge.org/projects/tzinfo
+    Homepage: http://tzinfo.rubyforge.org/
+    Installed at: C:/Ruby192/lib/ruby/gems/1.9.1
+
+    Daylight-savings aware timezone library

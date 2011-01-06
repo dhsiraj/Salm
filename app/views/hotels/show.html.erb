@@ -1,0 +1,22 @@
+<p id="notice"><%= notice %></p>
+<p>
+ <span class="showlabel">Hotel name:</span><span class="showval"><%= @hotel.hotel_name %></span>
+</p>
+
+<p>
+	<span class="showlabel">Location:</span><span class="showval"><%= @hotel.location %></span>
+ 
+</p>
+
+<p>
+	<span class="showlabel">Email:</span><span class="showval"><%= @hotel.email %></span>
+ 
+</p>
+
+<p>
+<span class="showlabel">Phone:</span><span class="showval"><%= @hotel.phone %></span>
+</p>
+<br>
+
+<%= link_to 'Edit', edit_hotel_path(@hotel) %> |
+<%= link_to 'Back', hotels_path %>

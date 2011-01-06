@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  guest_name: MyString
+  location: MyString
+  agent_id: MyString
+  flight_num: MyString
+  airlines: MyString
+  arr_date: 2011-01-03 16:52:04
+  arr_time: 2011-01-03 16:52:04
+
+two:
+  guest_name: MyString
+  location: MyString
+  agent_id: MyString
+  flight_num: MyString
+  airlines: MyString
+  arr_date: 2011-01-03 16:52:04
+  arr_time: 2011-01-03 16:52:04

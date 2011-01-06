@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  guest_id: MyString
+  location: MyString
+  checkin: 2011-01-03 16:54:01
+  checkout: 2011-01-03 16:54:01
+  hotel_id: MyString
+
+two:
+  guest_id: MyString
+  location: MyString
+  checkin: 2011-01-03 16:54:01
+  checkout: 2011-01-03 16:54:01
+  hotel_id: MyString

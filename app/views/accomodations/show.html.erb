@@ -1,0 +1,38 @@
+<div id="content-inner">
+<div class="content-right">
+
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Guest:</b>
+  <%= @accomodation.guest.guest_name %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @accomodation.location %>
+</p>
+
+<p>
+  <b>Checkin:</b>
+  <%= @accomodation.checkin %>
+</p>
+
+<p>
+  <b>Checkout:</b>
+  <%= @accomodation.checkout %>
+</p>
+
+<p>
+  <b>Hotel:</b>
+  <%= @accomodation.hotel.hotel_name %>
+</p>
+
+
+<%= link_to 'Edit', edit_accomodation_path(@accomodation) %> |
+<%= link_to 'Back', accomodations_path %> | &nbsp;&nbsp;&nbsp;
+<%= link_to 'Back To Guest', @accomodation.guest  %> | &nbsp;&nbsp;&nbsp;
+<td><%= link_to 'Show', @accomodation.guest %></td>
+
+</div>
+</div>

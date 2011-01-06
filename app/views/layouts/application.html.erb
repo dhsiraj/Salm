@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SALM - Umra Services</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta name="Description" content="description" />
+	<meta name="Keywords" content="keywords" />
+	<%= stylesheet_link_tag 'fli' %>
+	<%= csrf_meta_tag %>
+</head>
+<body>
+	<div id="outer-wrapper">
+		<div id="inner-wrapper">
+			<div id="content-wrapper">
+		    	<div id="header">
+		        	<div id="complogo">
+						<h1 class="mainname">SALM Umra Services </h1>
+					</div>
+				</div><!-- end header -->
+				
+				<!-- Begin Content -->
+				<div id="content">
+		           			<!-- Body Content -->
+				<p style="color: green"><%= flash[:notice] %></p>
+				<%= yield %>	
+				</div>
+	
+				<!-- Begin Left Column -->
+				<div id="sidebar">
+					<ul class="side-nav">
+						<li><a href="/home">Home</a></li>
+						<li><a href="/agents">Agents</a></li>
+						<li><a href="/hotels">Hotels</a></li>
+						<li><a href="/guests">Guests</a></li>
+					</ul>
+					
+				</div>
+				
+				<!-- Begin Footer -->
+		        <div id="footer">
+		            <ul id="footer-nav">
+						<li><a href="">Home</a></li>
+						<li><a href="">Desclaimer</a></li>
+						<li><a href="">Site Map</a></li>
+						<li><a href="">Links</a></li>
+						<li><a href="">Contact Us</a></li>
+						<li><a href="">Newsletter</a></li>
+						<li class="last"><a href="">Open Source</a></li>
+					</ul>
+
+					<p class="copyright">Copyright 2010 Fast Line Info | 
+						<a href="http://www.fastlineinfo.com">Website design by FastLineInfo.com</a> |  
+						<a href="http://www.fastlineinfo.com/designers">Fast Line Info Web design Division</a>
+					</p>
+		        </div>
+			</div><!-- End Content-Wrapper -->
+		</div>
+	</div>
+</body>
+</html>

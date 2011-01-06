@@ -1,0 +1,93 @@
+<p id="notice"><%= notice %></p>
+<p>
+  <span class="showlabel">Guest name:</span><span class="showval"><%= @guest.guest_name %></span>
+  <span class="showlabel">Location:</span><span class="showval"><%= @guest.location %></span>
+</p>
+
+<p>
+  <span class="showlabel">Agent:</span><span class="showval"><%= @guest.agent.agent_name %></span>
+  <span class="showlabel">Flight num:</span><span class="showval"><%= @guest.flight_num %></span>
+ </p>
+
+<p>
+  <span class="showlabel">Airlines:</span><span class="showval"><%= @guest.airlines %></span>
+</p>
+
+<p>
+  <span class="showlabel">Arr date:</span><span class="showval"><%= @guest.arr_date %></span>
+</p>
+
+<p>
+   <span class="showlabel">Arr time:</span><span class="showval"><%= @guest.arr_time %></span>
+ </p>
+<br><br>
+<h2>Listing accomodations</h2><br>
+<table style="background-color:#DFDBDC;">
+<!-- row 0   -->
+ <tr>
+	<td class="grdhdr" width="145px">Guest</td>
+	<td class="grdhdr" width="145px">Location</td>
+	<td class="grdhdr" width="145px">Checkin</td>
+	<td class="grdhdr" width="145px">Checkout</td>
+	<td class="grdhdr" width="145px">Hotel</td>
+	<td class="grdhdr" width="145px"></td>
+	<td class="grdhdr" width="145px"></td>
+</tr> 
+<!-- row 1   -->
+<% @accomodations.each do |accomodation| %>
+  <tr>
+    <td class="grdbdy"><%= link_to accomodation.guest.guest_name, accomodation  %></td>
+    <td class="grdbdy"><%= accomodation.location %></td>
+    <td class="grdbdy"><%= accomodation.checkin %></td>
+    <td class="grdbdy"><%= accomodation.checkout %></td>
+    <td class="grdbdy"><%= accomodation.hotel.hotel_name %></td>
+    <td class="grdbdy"><%= link_to 'Edit', edit_accomodation_path(accomodation) %></td>
+    <td class="grdbdy"><%= link_to 'Destroy', accomodation, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+<!-- end rows -->
+</table> 
+<br /><br><br>
+
+<%= form_for(@accomodation) do |f| %>
+  <% if @accomodation.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@accomodation.errors.count, "error") %> prohibited this accomodation from being saved:</h2>
+
+      <ul>
+      <% @accomodation.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+<h2>New Accomodation</h2><br>
+  <div class="field">
+  	<%= f.hidden_field :guest_id, :value => @guest.id %>
+    </div><br />
+  <div class="field">
+    <%= f.label :location %>
+    <%= f.text_field :location %>
+  </div><br />
+  <div class="field">
+    <%= f.label :checkin %>
+    <%= f.datetime_select :checkin %>
+  </div><br />
+  <div class="field">
+    <%= f.label :checkout %>
+    <%= f.datetime_select :checkout %>
+  </div><br />
+  <div class="field">
+    <%= f.label :hotel_id %>
+	<%= select("accomodation", "hotel_id", Hotel.all.collect {|a| [ a.hotel_name, a.id ] }, {:include_blank => 'None'}) %>
+    <% # f.text_field :hotel_id %>
+  </div><br />
+  <div class="actions" align="center">
+    <%= f.submit %>
+  </div>
+<% end %>
+<br><br>
+<%= link_to 'Edit', edit_guest_path(@guest) %> |
+<%= link_to 'Back', guests_path %>
+
+<br><br><br><br><br><br><br><br>

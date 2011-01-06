@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <span class="showlabel">Agent name:</span><span class="showval"><%= @agent.agent_name %></span>
+</p>
+
+<p>
+  <span class="showlabel">Agent email:</span><span class="showval"><%= @agent.agent_email %></span>
+ 
+</p>
+
+<p>
+	 <span class="showlabel">Location:</span><span class="showval"><%= @agent.location %></span>
+ 
+</p>
+
+<p>
+ <span class="showlabel">Phone:</span><span class="showval"><%= @agent.phone %></span>
+ 
+</p>
+
+<p>
+  <span class="showlabel">Country:</span><span class="showval"><%= @agent.country %></span>
+ </p>
+<br><br>
+
+<%= link_to 'Edit', edit_agent_path(@agent) %> |
+<%= link_to 'Back', agents_path %>
+<br><br><br><br>

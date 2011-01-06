@@ -1,0 +1,35 @@
+<div id="content-inner">
+<div class="content-right">
+<h1>Listing Agents</h1><br>
+
+<table style="background-color:#DFDBDC;" width="100%">
+<!-- row 0   -->
+ <tr>
+	<td class="grdhdr" width="145px">Agent name</td>
+	<td class="grdhdr" width="125px">Agent email</td>
+	<td class="grdhdr" width="125px">Location</td>
+	<td class="grdhdr" width="125px">Phone</td>
+	<td class="grdhdr" width="125px">Country</td>
+	<td class="grdhdr"></td>
+	<td class="grdhdr"></td>
+</tr> 
+<!-- row 1   -->
+<% @agents.each do |agent| %>
+<tr>
+	<td class="grdbdy"><%= link_to agent.agent_name, agent %></td>
+	<td class="grdbdy"><%= agent.agent_email %></td>
+	<td class="grdbdy"><%= agent.location %></td>
+	<td class="grdbdy"><%= agent.phone %></td>
+	<td class="grdbdy"><%= agent.country %></td>
+	<td class="grdbdy"><%= link_to 'Edt', edit_agent_path(agent) %></td>
+    <td class="grdbdy"><%= link_to 'Del', agent, :confirm => 'Are you sure?', :method => :delete %></td>
+</tr> 
+<% end %>
+<!-- end rows -->
+</table> 
+
+<br />
+
+<%= link_to 'New Agent', new_agent_path %>
+</div>
+</div>

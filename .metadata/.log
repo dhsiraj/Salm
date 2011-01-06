@@ -1,0 +1,2140 @@
+!SESSION 2011-01-03 17:00:17.938 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench 2 0 2011-01-03 17:00:54.563
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2011-01-03 17:00:54.563
+!MESSAGE Conflict for 'AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.RenameAction':
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.RenameAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.RenameAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1e4eb5b),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.RenameAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.RenameAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1e4eb5b),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2011-01-03 17:00:54.563
+!MESSAGE Conflict for 'AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.MoveFieldAction':
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.MoveFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.MoveFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1e4eb5b),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.MoveFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.MoveFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1e4eb5b),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2011-01-03 17:00:54.563
+!MESSAGE Conflict for 'AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction':
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1e4eb5b),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1e4eb5b),sourcePriority=16384)
+
+!ENTRY org.eclipse.jface 2 0 2011-01-03 17:00:54.625
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-01-03 17:00:54.625
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.rubypeople.rdt.ui.edit.text.ruby.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-01-03 17:00:54.625
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.testunit.rerunLastTest,Rerun Last Test,
+		Rerun the last executed test,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-01-03 17:00:54.625
+!MESSAGE A conflict occurred for CTRL+U:
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.debug.ui.commands.Execute,Execute,
+		Evaluate selected text,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+U,
+	ParameterizedCommand(Command(org.radrails.rails.ui.command.script_console,script/console,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-01-03 17:00:54.625
+!MESSAGE A conflict occurred for CTRL+SHIFT+U:
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.search.occurrences.in.file.quickMenu,Show Occurrences in File Quick Menu,
+		Shows the Occurrences in File quick menu,
+		Category(org.eclipse.search.ui.category.search,Search,Search command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+U,
+	ParameterizedCommand(Command(com.aptana.ide.syncing.ui.commands.upload,Upload...,
+		,
+		Category(com.aptana.ide.syncing.ui.commands.category,File Transfer,File Transfer Commands,true),
+		com.aptana.ide.syncing.ui.handlers.UploadHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-01-03 17:00:54.625
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.open.call.hierarchy,Open Call Hierarchy,
+		Open a call hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.rubypeople.rdt.ui.edit.text.ruby.open.call.hierarchy,Open Call Hierarchy,
+		Open a call hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-01-03 17:00:54.625
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.rubypeople.rdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:06.438
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.FeatureTracker.tableExists(FeatureTracker.java:192)
+	at com.aptana.ide.core.db.FeatureTracker.getInstance(FeatureTracker.java:89)
+	at com.aptana.ide.core.ui.ping.PingStartup.featuresMatch(PingStartup.java:154)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:111)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:06.500
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.getInstance(FeatureTracker.java:103)
+	at com.aptana.ide.core.ui.ping.PingStartup.featuresMatch(PingStartup.java:154)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:111)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:06.563
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:146)
+	at com.aptana.ide.core.db.FeatureTracker.getFeatures(FeatureTracker.java:162)
+	at com.aptana.ide.core.ui.ping.PingStartup.featuresMatch(PingStartup.java:154)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:111)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:06.625
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.clearFeatures(FeatureTracker.java:150)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:116)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:06.844
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.EventLogger.tableExists(EventLogger.java:290)
+	at com.aptana.ide.core.db.EventLogger.getInstance(EventLogger.java:89)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:119)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:06.938
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.getInstance(EventLogger.java:103)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:119)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:07.063
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:07.156
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:07.235
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:07.313
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:07.375
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:07.438
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:07.500
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:07.563
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:07.625
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:07.719
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:07.797
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:07.891
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:07.953
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:08.000
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:08.109
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:08.156
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:08.219
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:08.281
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:08.344
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:08.406
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:08.469
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:08.531
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:08.609
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:08.688
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:08.797
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:08.875
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.000
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.047
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.094
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.156
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.203
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.250
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.297
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.375
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.406
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.484
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.500
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.531
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.563
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.578
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.609
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.641
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.656
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.688
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.719
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.750
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.781
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.813
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.844
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.875
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.891
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.922
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.953
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:09.984
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:10.016
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:10.031
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:10.063
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:10.094
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:10.125
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:123)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:10.156
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:140)
+	at com.aptana.ide.core.db.FeatureTracker.addFeature(FeatureTracker.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.addFeatureList(PingStartup.java:124)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:391)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:10.172
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:117)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:394)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:10.203
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:146)
+	at com.aptana.ide.core.db.EventLogger.getEvents(EventLogger.java:223)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:397)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:12.328
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.clearEvents(EventLogger.java:152)
+	at com.aptana.ide.core.ui.ping.PingStartup.updateAnonymousId(PingStartup.java:422)
+	at com.aptana.ide.core.ui.ping.PingStartup.access$0(PingStartup.java:367)
+	at com.aptana.ide.core.ui.ping.PingStartup$1.run(PingStartup.java:446)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 2 0 2011-01-03 17:01:14.484
+!MESSAGE While loading class "org.rubypeople.rdt.internal.core.util.Messages", thread "Thread[Worker-0,5,main]" timed out waiting (5000ms) for thread "Thread[main,6,main]" to finish starting bundle "org.rubypeople.rdt.core_1.3.2.1271256971 [380]". To avoid deadlock, thread "Thread[Worker-0,5,main]" is proceeding but "org.rubypeople.rdt.internal.core.util.Messages" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/org.rubypeople.rdt.core_1.3.2.1271256971.jar" by thread "main".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.rubypeople.rdt.internal.core.search.indexing.IndexManager.processName(IndexManager.java:281)
+	at org.rubypeople.rdt.internal.core.search.processing.JobManager.reset(JobManager.java:300)
+	at org.rubypeople.rdt.internal.core.search.indexing.IndexManager.reset(IndexManager.java:794)
+	at org.rubypeople.rdt.internal.core.RubyModelManager.startIndexing(RubyModelManager.java:1036)
+	at org.rubypeople.rdt.internal.core.RubyModelManager.access$2(RubyModelManager.java:1035)
+	at org.rubypeople.rdt.internal.core.RubyModelManager$6.run(RubyModelManager.java:988)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 19 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.rubypeople.rdt.internal.core.search.indexing.IndexManager.processName(IndexManager.java:281)
+	at org.rubypeople.rdt.internal.core.search.processing.JobManager.reset(JobManager.java:300)
+	at org.rubypeople.rdt.internal.core.search.indexing.IndexManager.reset(IndexManager.java:794)
+	at org.rubypeople.rdt.internal.core.RubyModelManager.startIndexing(RubyModelManager.java:1036)
+	at org.rubypeople.rdt.internal.core.RubyModelManager.access$2(RubyModelManager.java:1035)
+	at org.rubypeople.rdt.internal.core.RubyModelManager$6.run(RubyModelManager.java:988)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-01-03 17:01:15.484
+!MESSAGE Failed to retrieve default libraries for C:\eclipse\plugins\org.jruby_1.2.0.9419p2
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:16.875
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:146)
+	at com.aptana.ide.core.db.EventLogger.getEvents(EventLogger.java:260)
+	at com.aptana.ide.core.ui.CoreUIPlugin.recordEditorOpening(CoreUIPlugin.java:352)
+	at com.aptana.ide.core.ui.CoreUIPlugin.access$1(CoreUIPlugin.java:349)
+	at com.aptana.ide.core.ui.CoreUIPlugin$1.partOpened(CoreUIPlugin.java:97)
+	at org.eclipse.ui.internal.PartListenerList$5.run(PartListenerList.java:132)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.PartListenerList.fireEvent(PartListenerList.java:57)
+	at org.eclipse.ui.internal.PartListenerList.firePartOpened(PartListenerList.java:130)
+	at org.eclipse.ui.internal.PartService.firePartOpened(PartService.java:276)
+	at org.eclipse.ui.internal.WWinPartService$WWinListener.partOpened(WWinPartService.java:54)
+	at org.eclipse.ui.internal.PartListenerList2$5.run(PartListenerList2.java:130)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.PartListenerList2.fireEvent(PartListenerList2.java:55)
+	at org.eclipse.ui.internal.PartListenerList2.firePartOpened(PartListenerList2.java:128)
+	at org.eclipse.ui.internal.PartService.firePartOpened(PartService.java:280)
+	at org.eclipse.ui.internal.WorkbenchPagePartList.firePartOpened(WorkbenchPagePartList.java:35)
+	at org.eclipse.ui.internal.PartList.partOpened(PartList.java:241)
+	at org.eclipse.ui.internal.PartList.addPart(PartList.java:97)
+	at org.eclipse.ui.internal.WorkbenchPage.partAdded(WorkbenchPage.java:1697)
+	at org.eclipse.ui.internal.EditorAreaHelper.addEditor(EditorAreaHelper.java:217)
+	at org.eclipse.ui.internal.EditorManager.createEditorTab(EditorManager.java:778)
+	at org.eclipse.ui.internal.EditorManager.openEditorFromDescriptor(EditorManager.java:677)
+	at org.eclipse.ui.internal.EditorManager.openEditor(EditorManager.java:638)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2854)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2762)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2754)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2705)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2701)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2685)
+	at com.aptana.ide.core.ui.CoreUIUtils.openEditor(CoreUIUtils.java:1034)
+	at com.aptana.ide.intro.IntroStartup$1.runInUIThread(IntroStartup.java:121)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:16.922
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at com.aptana.ide.core.ui.CoreUIPlugin.recordEditorOpening(CoreUIPlugin.java:363)
+	at com.aptana.ide.core.ui.CoreUIPlugin.access$1(CoreUIPlugin.java:349)
+	at com.aptana.ide.core.ui.CoreUIPlugin$1.partOpened(CoreUIPlugin.java:97)
+	at org.eclipse.ui.internal.PartListenerList$5.run(PartListenerList.java:132)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.PartListenerList.fireEvent(PartListenerList.java:57)
+	at org.eclipse.ui.internal.PartListenerList.firePartOpened(PartListenerList.java:130)
+	at org.eclipse.ui.internal.PartService.firePartOpened(PartService.java:276)
+	at org.eclipse.ui.internal.WWinPartService$WWinListener.partOpened(WWinPartService.java:54)
+	at org.eclipse.ui.internal.PartListenerList2$5.run(PartListenerList2.java:130)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.runtime.Platform.run(Platform.java:888)
+	at org.eclipse.ui.internal.PartListenerList2.fireEvent(PartListenerList2.java:55)
+	at org.eclipse.ui.internal.PartListenerList2.firePartOpened(PartListenerList2.java:128)
+	at org.eclipse.ui.internal.PartService.firePartOpened(PartService.java:280)
+	at org.eclipse.ui.internal.WorkbenchPagePartList.firePartOpened(WorkbenchPagePartList.java:35)
+	at org.eclipse.ui.internal.PartList.partOpened(PartList.java:241)
+	at org.eclipse.ui.internal.PartList.addPart(PartList.java:97)
+	at org.eclipse.ui.internal.WorkbenchPage.partAdded(WorkbenchPage.java:1697)
+	at org.eclipse.ui.internal.EditorAreaHelper.addEditor(EditorAreaHelper.java:217)
+	at org.eclipse.ui.internal.EditorManager.createEditorTab(EditorManager.java:778)
+	at org.eclipse.ui.internal.EditorManager.openEditorFromDescriptor(EditorManager.java:677)
+	at org.eclipse.ui.internal.EditorManager.openEditor(EditorManager.java:638)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditorBatched(WorkbenchPage.java:2854)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:2762)
+	at org.eclipse.ui.internal.WorkbenchPage.access$11(WorkbenchPage.java:2754)
+	at org.eclipse.ui.internal.WorkbenchPage$10.run(WorkbenchPage.java:2705)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2701)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:2685)
+	at com.aptana.ide.core.ui.CoreUIUtils.openEditor(CoreUIUtils.java:1034)
+	at com.aptana.ide.intro.IntroStartup$1.runInUIThread(IntroStartup.java:121)
+	at org.eclipse.ui.progress.UIJob$1.run(UIJob.java:95)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3855)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3476)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-01-03 17:01:19.172
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-01-03 17:01:19.187
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2011-01-03 17:01:19.187
+!MESSAGE Starting: C:\Ruby192\bin\ruby.exe -I C:\WORKSPACE\salm\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- C:\Ruby192\bin\gem -v
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2011-01-03 17:01:19.203
+!MESSAGE Starting: C:\Ruby192\bin\ruby.exe -I C:\WORKSPACE\salm\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- C:\Ruby192\bin\gem sources -l
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-03 17:01:22.531
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] Unable to connect to database
+!STACK 0
+SQL Exception: Failed to start database 'aptanaDB', see the next exception for details.
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.newEmbedSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.newSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.bootDatabase(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection30.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver30.getNewEmbedConnection(Unknown Source)
+	at org.apache.derby.jdbc.InternalDriver.connect(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.getConnection(AptanaDB.java:225)
+	at com.aptana.ide.core.db.AptanaDB.execute(AptanaDB.java:97)
+	at com.aptana.ide.core.db.EventLogger.logEvent(EventLogger.java:142)
+	at org.radrails.rails.ui.RailsUIPlugin$2.run(RailsUIPlugin.java:204)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-01-03 17:01:37.890
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2011-01-03 17:01:37.890
+!MESSAGE Starting: C:\Ruby192\bin\ruby.exe -I C:\WORKSPACE\salm\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- C:\Ruby192\bin\gem query -d
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-01-03 17:01:45.953
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-01-03 17:01:46.250
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-01-03 17:01:46.531
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-01-03 17:01:46.812
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-01-03 17:01:47.093
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-01-03 17:01:47.375
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-01-03 17:01:47.609
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-01-03 17:01:47.890
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-01-03 17:01:48.140
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-01-03 17:01:48.359
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-01-03 17:01:48.609
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-01-03 17:01:48.828
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY com.aptana.ide.core 4 0 2011-01-04 09:52:45.196
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] An error occurred while shutting down the database
+!STACK 0
+java.sql.SQLException: No suitable driver found for jdbc:derby:aptanaDB;shutdown=true
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.shutdown(AptanaDB.java:320)
+	at com.aptana.ide.core.AptanaCorePlugin.stop(AptanaCorePlugin.java:73)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:474)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:546)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1098)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:593)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:261)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:216)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:685)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:583)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:409)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)

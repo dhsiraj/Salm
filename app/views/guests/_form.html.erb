@@ -1,0 +1,46 @@
+<%= form_for(@guest) do |f| %>
+  <% if @guest.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@guest.errors.count, "error") %> prohibited this guest from being saved:</h2>
+
+      <ul>
+      <% @guest.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :guest_name %>
+    <%= f.text_field :guest_name %>
+  </div><br />
+  <div class="field">
+    <%= f.label :location %>
+    <%= f.text_field :location %>
+  </div><br />
+  <div class="field">
+	<%= f.label :agent_id %>
+	<%= select("guest", "agent_id", Agent.all.collect {|a| [ a.agent_name, a.id ] }, {:include_blank => 'None'}) %>
+    <% #f.text_field :agent_id %>
+  </div><br />
+  <div class="field">
+    <%= f.label :flight_num %>
+    <%= f.text_field :flight_num %>
+  </div><br />
+  <div class="field">
+    <%= f.label :airlines %>
+    <%= f.text_field :airlines %>
+  </div><br />
+  <div class="field">
+    <%= f.label :arr_date %>
+    <%= f.datetime_select :arr_date %>
+  </div><br />
+  <div class="field">
+    <%= f.label :arr_time %>
+    <%= f.datetime_select :arr_time %>
+  </div><br /><br />
+  <div class="actions" align="center">
+    <%= f.submit %>
+  </div>
+<% end %>
