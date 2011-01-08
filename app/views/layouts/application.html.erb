@@ -7,7 +7,12 @@
 	<meta http-equiv="Pragma" content="no-cache" />
 	<meta name="Description" content="description" />
 	<meta name="Keywords" content="keywords" />
-	<%= stylesheet_link_tag 'fli' %>
+	<%= stylesheet_link_tag 'fli','demo','tablecloth' %>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+	<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/base/ui.all.css" rel="stylesheet" type="text/css" />
+	<%= javascript_include_tag 'datetimepicker','top'%>
+	
 	<%= csrf_meta_tag %>
 </head>
 <body>
@@ -34,6 +39,7 @@
 						<li><a href="/agents">Agents</a></li>
 						<li><a href="/hotels">Hotels</a></li>
 						<li><a href="/guests">Guests</a></li>
+						<li><a href="/guest/list">Search Guest List</a></li>
 					</ul>
 					
 				</div>

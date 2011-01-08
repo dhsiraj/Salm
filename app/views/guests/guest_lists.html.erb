@@ -1,0 +1,50 @@
+<div id="content-inner">
+<div class="content-right">
+<h1>Listing Guests</h1><br>
+<tr>
+ <%= form_for :agent, :url => { :action => "guest_lists" } do |f| %>
+    <td><label for="from_filter">From:</label></td>
+    <td><div id="datepicker"><%= f.text_field 'from_date' %></div></td>
+     <td><label for="to_filter">To:</label></td>
+    <td><div id="datepicker"><%= f.text_field 'to_date' %></div></td>
+    <td><%= f.submit 'Find Guests' %></td>
+    <!--<td><a href="/guest/list"><img src="/images/go.jpg"></a></td>-->
+  <% end %>
+</tr>
+<tr>
+   
+</tr>
+<% if @guests != nil %>
+<table style="background-color:#DFDBDC;" width="100%">
+<!-- row 0   -->
+ <tr>
+	<th >Guest name</th>
+	<th >Location</th>
+	<th >Agent</th>
+	<th >Flight num</th>
+	<th >Airlines</th>
+	<th >Arr date</th>
+	<th >Arr time</th>
+	<th ></th>
+	<th ></th>
+</tr> 
+<!-- row 1   -->
+<% @guests.each do |guest| %>
+ <tr>
+    <td ><%= link_to guest.guest_name, guest  %></td>
+    <td ><%= guest.location %></td>
+    <td ><%= guest.agent.agent_name %></td>
+    <td ><%= guest.flight_num %></td>
+    <td ><%= guest.airlines %></td>
+    <td ><%= guest.arr_date %></td>
+    <td ><%= guest.arr_time %></td>
+    <td ><%= link_to 'Edt', edit_guest_path(guest) %></td>
+    <td ><%= link_to 'Del', guest, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+<!-- end rows -->
+</table>
+<% end %>
+
+</div>
+</div>

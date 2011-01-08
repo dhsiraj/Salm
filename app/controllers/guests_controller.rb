@@ -81,4 +81,15 @@ class GuestsController < ApplicationController
       format.xml  { head :ok }
     end
   end
+  
+  def guest_lists
+    #@guests = Guest.all
+    if params[:agent] != nil
+      @guests = Guest.find(:all, :conditions => ["arr_date >= ? and arr_date <= ?", params[:agent][:from_date].to_datetime, params[:agent][:to_date].to_datetime], :order => "arr_date desc")
+      respond_to do |format|
+	format.html # this handles normal requests asking for html
+	format.js
+      end
+    end 
+  end
 end
