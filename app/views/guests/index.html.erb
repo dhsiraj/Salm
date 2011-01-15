@@ -1,32 +1,30 @@
-<div id="content-inner">
-<div class="content-right">
 <h1>Listing Guests</h1><br>
 
-<table style="background-color:#DFDBDC;" width="100%">
+<table width="100%">
 <!-- row 0   -->
  <tr>
-	<td class="grdhdr" width="145px">Guest name</td>
-	<td class="grdhdr" width="145px">Location</td>
-	<td class="grdhdr" width="145px">Agent</td>
-	<td class="grdhdr" width="145px">Flight num</td>
-	<td class="grdhdr" width="145px">Airlines</td>
-	<td class="grdhdr" width="145px">Arr date</td>
-	<td class="grdhdr" width="145px">Arr time</td>
-	<td class="grdhdr"></td>
-	<td class="grdhdr"></td>
+	<th>Guest name</th>
+	<th>Location</th>
+	<th>Agent</th>
+	<th>Flight num</th>
+	<th>Airlines</th>
+	<th>Arr date</th>
+	<th>Arr time</th>
+	<th></th>
+	<th></th>
 </tr> 
 <!-- row 1   -->
 <% @guests.each do |guest| %>
  <tr>
-    <td class="grdbdy"><%= link_to guest.guest_name, guest  %></td>
-    <td class="grdbdy"><%= guest.location %></td>
-    <td class="grdbdy"><%= guest.agent.agent_name %></td>
-    <td class="grdbdy"><%= guest.flight_num %></td>
-    <td class="grdbdy"><%= guest.airlines %></td>
-    <td class="grdbdy"><%= guest.arr_date %></td>
-    <td class="grdbdy"><%= guest.arr_time %></td>
-    <td class="grdbdy"><%= link_to 'Edt', edit_guest_path(guest) %></td>
-    <td class="grdbdy"><%= link_to 'Del', guest, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td><%= link_to guest.guest_name, guest  %></td>
+    <td><%= guest.location %></td>
+    <td><%= guest.agent.agent_name %></td>
+    <td><%= guest.flight_num %></td>
+    <td><%= guest.airlines %></td>
+    <td><%= guest.arr_date %></td>
+    <td><%= guest.arr_time %></td>
+    <td><%= link_to 'Edt', edit_guest_path(guest) %></td>
+    <td><%= link_to 'Del', guest, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 <!-- end rows -->
@@ -36,6 +34,3 @@
 <br />
 
 <%= link_to 'New Guest', new_guest_path %>
-
-</div>
-</div>

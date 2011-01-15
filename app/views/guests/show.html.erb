@@ -25,24 +25,24 @@
 <table style="background-color:#DFDBDC;">
 <!-- row 0   -->
  <tr>
-	<td class="grdhdr" width="145px">Guest</td>
-	<td class="grdhdr" width="145px">Location</td>
-	<td class="grdhdr" width="145px">Checkin</td>
-	<td class="grdhdr" width="145px">Checkout</td>
-	<td class="grdhdr" width="145px">Hotel</td>
-	<td class="grdhdr" width="145px"></td>
-	<td class="grdhdr" width="145px"></td>
+	<th>Guest</th>
+	<th>Location</th>
+	<th>Checkin</th>
+	<th>Checkout</th>
+	<th>Hotel</th>
+	<th></th>
+	<th></th>
 </tr> 
 <!-- row 1   -->
 <% @accomodations.each do |accomodation| %>
   <tr>
-    <td class="grdbdy"><%= link_to accomodation.guest.guest_name, accomodation  %></td>
-    <td class="grdbdy"><%= accomodation.location %></td>
-    <td class="grdbdy"><%= accomodation.checkin %></td>
-    <td class="grdbdy"><%= accomodation.checkout %></td>
-    <td class="grdbdy"><%= accomodation.hotel.hotel_name %></td>
-    <td class="grdbdy"><%= link_to 'Edit', edit_accomodation_path(accomodation) %></td>
-    <td class="grdbdy"><%= link_to 'Destroy', accomodation, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td><%= link_to accomodation.guest.guest_name, accomodation  %></td>
+    <td><%= accomodation.location %></td>
+    <td><%= accomodation.checkin %></td>
+    <td><%= accomodation.checkout %></td>
+    <td><%= accomodation.hotel.hotel_name %></td>
+    <td><%= link_to 'Edit', edit_accomodation_path(accomodation) %></td>
+    <td><%= link_to 'Destroy', accomodation, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 <!-- end rows -->

@@ -1,28 +1,26 @@
-<div id="content-inner">
-<div class="content-right">
 <h1>Listing Agents</h1><br>
 
-<table style="background-color:#DFDBDC;" width="100%">
+<table width="100%">
 <!-- row 0   -->
  <tr>
-	<td class="grdhdr" width="145px">Agent name</td>
-	<td class="grdhdr" width="125px">Agent email</td>
-	<td class="grdhdr" width="125px">Location</td>
-	<td class="grdhdr" width="125px">Phone</td>
-	<td class="grdhdr" width="125px">Country</td>
-	<td class="grdhdr"></td>
-	<td class="grdhdr"></td>
+	<th>Agent name</th>
+	<th>Agent email</th>
+	<th>Location</th>
+	<th>Phone</th>
+	<th>Country</th>
+	<th></th>
+	<th></th>
 </tr> 
 <!-- row 1   -->
 <% @agents.each do |agent| %>
 <tr>
-	<td class="grdbdy"><%= link_to agent.agent_name, agent %></td>
-	<td class="grdbdy"><%= agent.agent_email %></td>
-	<td class="grdbdy"><%= agent.location %></td>
-	<td class="grdbdy"><%= agent.phone %></td>
-	<td class="grdbdy"><%= agent.country %></td>
-	<td class="grdbdy"><%= link_to 'Edt', edit_agent_path(agent) %></td>
-    <td class="grdbdy"><%= link_to 'Del', agent, :confirm => 'Are you sure?', :method => :delete %></td>
+	<td><%= link_to agent.agent_name, agent %></td>
+	<td><%= agent.agent_email %></td>
+	<td><%= agent.location %></td>
+	<td> <%= agent.phone %></td>
+	<td> <%= agent.country %></td>
+	<td><%= link_to 'Edt', edit_agent_path(agent) %></td>
+    <td><%= link_to 'Del', agent, :confirm => 'Are you sure?', :method => :delete %></td>
 </tr> 
 <% end %>
 <!-- end rows -->
@@ -31,5 +29,3 @@
 <br />
 
 <%= link_to 'New Agent', new_agent_path %>
-</div>
-</div>

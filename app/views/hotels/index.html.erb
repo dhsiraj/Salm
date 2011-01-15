@@ -1,26 +1,24 @@
-<div id="content-inner">
-<div class="content-right">
 <h1>Listing Hotels</h1><br>
 
 <table style="background-color:#DFDBDC;">
 <!-- row 0   -->
  <tr>
-	<td class="grdhdr" width="145px">Hotel name</td>
-	<td class="grdhdr" width="145px">Location</td>
-	<td class="grdhdr" width="145px">Email</td>
-	<td class="grdhdr" width="145px">Phone</td>
-	<td class="grdhdr" width="145px"></td>
-	<td class="grdhdr" width="145px"></td>
+	<th>Hotel name</th>
+	<th>Location</th>
+	<th>Email</th>
+	<th>Phone</th>
+	<th></th>
+	<th></th>
 </tr> 
 <!-- row 1   -->
 <% @hotels.each do |hotel| %>
   <tr>
-    <td class="grdbdy"><%= link_to hotel.hotel_name, hotel %></td>
-    <td class="grdbdy"><%= hotel.location %></td>
-    <td class="grdbdy"><%= hotel.email %></td>
-    <td class="grdbdy"><%= hotel.phone %></td>
-    <td class="grdbdy"><%= link_to 'Edt', edit_hotel_path(hotel) %></td>
-    <td class="grdbdy"><%= link_to 'Del', hotel, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td> <%= link_to hotel.hotel_name, hotel %></td>
+    <td> <%= hotel.location %></td>
+    <td> <%= hotel.email %></td>
+    <td> <%= hotel.phone %></td>
+    <td> <%= link_to 'Edt', edit_hotel_path(hotel) %></td>
+    <td> <%= link_to 'Del', hotel, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
 <% end %>
 <!-- end rows -->
@@ -29,5 +27,3 @@
 <br />
 
 <%= link_to 'New Hotel', new_hotel_path %>
-</div>
-</div>
