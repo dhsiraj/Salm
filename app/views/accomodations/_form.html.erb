@@ -16,21 +16,23 @@
     <%= f.text_field :guest_id %>
   </div><br />
   <div class="field">
-    <%= f.label :location %>
-    <%= f.text_field :location %>
-  </div><br />
-  <div class="field">
-    <%= f.label :checkin %>
-    <%= f.datetime_select :checkin %>
-  </div><br />
-  <div class="field">
-    <%= f.label :checkout %>
-    <%= f.datetime_select :checkout %>
+    <%= f.label :City %>
+    <%= select("accomodation", "location", [ 'Madinah', 'Mekkah' ,'Jeddah' ], {:include_blank => 'None'}) %>
+    
   </div><br />
   <div class="field">
     <%= f.label :hotel_id %>
     <%= f.text_field :hotel_id %>
-  </div><br /><br /><br />
+  </div><br />
+  <div class="field">
+    <%= f.label :checkin %>
+    <%= f.datetime_select :checkin,:order => [:day, :month, :year, :hour, :minute] %>
+  </div><br />
+  <div class="field">
+    <%= f.label :checkout %>
+    <%= f.datetime_select :checkout,:order => [:day, :month, :year, :hour, :minute] %>
+  </div><br />
+  <br /><br />
   <div class="actions" align="center">
     <%= f.submit %>
   </div>

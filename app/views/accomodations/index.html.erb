@@ -3,10 +3,11 @@
 <table>
   <tr>
     <th>Guest</th>
-    <th>Location</th>
+    <th>City</th>
+    <th>Hotel</th>
     <th>Checkin</th>
     <th>Checkout</th>
-    <th>Hotel</th>
+    
     <th></th>
     <th></th>
     <th></th>
@@ -16,9 +17,10 @@
   <tr>
     <td><%= accomodation.guest_id %></td>
     <td><%= accomodation.location %></td>
-    <td><%= accomodation.checkin %></td>
-    <td><%= accomodation.checkout %></td>
     <td><%= accomodation.hotel_id %></td>
+    <td><%= accomodation.checkin.strftime('%m/%d/%Y') %></td>
+    <td><%= accomodation.checkout.strftime('%m/%d/%Y') %></td>
+    
     <td><%= link_to 'Show', accomodation %></td>
     <td><%= link_to 'Edit', edit_accomodation_path(accomodation) %></td>
     <td><%= link_to 'Destroy', accomodation, :confirm => 'Are you sure?', :method => :delete %></td>

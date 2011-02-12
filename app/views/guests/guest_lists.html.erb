@@ -17,12 +17,11 @@
 <!-- row 0   -->
  <tr>
 	<th >Guest name</th>
-	<th >Location</th>
 	<th >Agent</th>
-	<th >Flight num</th>
+	<th >Arrival From</th>
 	<th >Airlines</th>
-	<th >Arr date</th>
-	<th >Arr time</th>
+	<th >Arr Date Time</th>
+	<th >No.Of.Pax</th>
 	<th ></th>
 	<th ></th>
 </tr> 
@@ -30,12 +29,11 @@
 <% @guests.each do |guest| %>
  <tr>
     <td ><%= link_to guest.guest_name, guest  %></td>
-    <td ><%= guest.location %></td>
     <td ><%= guest.agent.agent_name %></td>
-    <td ><%= guest.flight_num %></td>
+    <td ><%= guest.arrival_from %></td>
     <td ><%= guest.airlines %></td>
-    <td ><%= guest.arr_date %></td>
-    <td ><%= guest.arr_time %></td>
+    <td ><%= guest.arr_time.strftime("%m/%d/%Y - %H:%M")  %></td>
+    <td ><%= guest.number_of_pax %></td>
     <td ><%= link_to 'Edt', edit_guest_path(guest) %></td>
     <td ><%= link_to 'Del', guest, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>

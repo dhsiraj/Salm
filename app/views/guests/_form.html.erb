@@ -16,30 +16,48 @@
     <%= f.text_field :guest_name %>
   </div><br />
   <div class="field">
-    <%= f.label :location %>
-    <%= f.text_field :location %>
-  </div><br />
-  <div class="field">
 	<%= f.label :agent_id %>
 	<%= select("guest", "agent_id", Agent.all.collect {|a| [ a.agent_name, a.id ] }, {:include_blank => 'None'}) %>
     <% #f.text_field :agent_id %>
   </div><br />
+  
   <div class="field">
-    <%= f.label :flight_num %>
-    <%= f.text_field :flight_num %>
+    <%= f.label :number_of_pax %>
+    <%= f.text_field :number_of_pax %>
+  </div><br />
+  <div class="field">
+    <%= f.label :number_of_adult %>
+    <%= f.text_field :number_of_adult %>
+  </div><br />
+  <div class="field">
+    <%= f.label :number_of_child %>
+    <%= f.text_field :number_of_child %>
   </div><br />
   <div class="field">
     <%= f.label :airlines %>
     <%= f.text_field :airlines %>
   </div><br />
   <div class="field">
-    <%= f.label :arr_date %>
-    <%= f.datetime_select :arr_date %>
+    <%= f.label :flight_num %>
+    <%= f.text_field :flight_num %>
+  </div><br />
+  <div class="field">
+    <%= f.label :arrival_from %>
+    <%= f.text_field :arrival_from %>
   </div><br />
   <div class="field">
     <%= f.label :arr_time %>
-    <%= f.datetime_select :arr_time %>
+    <%= f.datetime_select :arr_time,:order => [:day, :month, :year, :hour, :minute] %>
   </div><br /><br />
+  <div class="field">
+    <%= f.label :arr_date %>
+    <%= f.datetime_select :arr_date,:order => [:day, :month, :year] %>
+  </div><br />
+   <div class="field">
+    <%= f.label :departure_date %>
+    <%= f.datetime_select :departure_date,:order => [:day, :month, :year] %>
+  </div><br />
+  
   <div class="actions" align="center">
     <%= f.submit %>
   </div>

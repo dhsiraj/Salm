@@ -9,24 +9,24 @@
 </p>
 
 <p>
-  <b>Location:</b>
+  <b>City:</b>
   <%= @accomodation.location %>
 </p>
-
-<p>
-  <b>Checkin:</b>
-  <%= @accomodation.checkin %>
-</p>
-
-<p>
-  <b>Checkout:</b>
-  <%= @accomodation.checkout %>
-</p>
-
 <p>
   <b>Hotel:</b>
   <%= @accomodation.hotel.hotel_name %>
 </p>
+<p>
+  <b>Checkin:</b>
+  <%= @accomodation.checkin.strftime('%m/%d/%Y') %>
+</p>
+
+<p>
+  <b>Checkout:</b>
+  <%= @accomodation.checkout.strftime('%m/%d/%Y') %>
+</p>
+
+
 
 
 <%= link_to 'Edit', edit_accomodation_path(@accomodation) %> |

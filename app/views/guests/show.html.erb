@@ -1,24 +1,33 @@
 <p id="notice"><%= notice %></p>
 <p>
   <span class="showlabel">Guest name:</span><span class="showval"><%= @guest.guest_name %></span>
-  <span class="showlabel">Location:</span><span class="showval"><%= @guest.location %></span>
-</p>
-
-<p>
   <span class="showlabel">Agent:</span><span class="showval"><%= @guest.agent.agent_name %></span>
+</p>
+<p>
+  <span class="showlabel">No Of Pax:</span><span class="showval"><%= @guest.number_of_pax %></span>
+  <span class="showlabel">Adult:</span><span class="showval"><%= @guest.number_of_adult %></span>
+  <span class="showlabel">Child:</span><span class="showval"><%= @guest.number_of_child %></span>
+ </p>
+<p>
+  <span class="showlabel">Airlines:</span><span class="showval"><%= @guest.airlines %></span>
   <span class="showlabel">Flight num:</span><span class="showval"><%= @guest.flight_num %></span>
  </p>
 
 <p>
-  <span class="showlabel">Airlines:</span><span class="showval"><%= @guest.airlines %></span>
+  <span class="showlabel">Arr From:</span><span class="showval"><%= @guest.arrival_from %></span>
+  <span class="showlabel">Arr time:</span><span class="showval"><%= @guest.arr_time.strftime("%m/%d/%Y - %H:%M") 
+ %></span>
 </p>
 
 <p>
-  <span class="showlabel">Arr date:</span><span class="showval"><%= @guest.arr_date %></span>
+  <span class="showlabel">Arr date:</span><span class="showval"><%= @guest.arr_date.strftime('%m/%d/%Y') 
+ %></span>
+  <span class="showlabel">Dep date:</span><span class="showval"><%= @guest.departure_date.strftime('%m/%d/%Y') 
+ %></span>
 </p>
 
 <p>
-   <span class="showlabel">Arr time:</span><span class="showval"><%= @guest.arr_time %></span>
+   
  </p>
 <br><br>
 <h2>Listing accomodations</h2><br>
@@ -26,10 +35,11 @@
 <!-- row 0   -->
  <tr>
 	<th>Guest</th>
-	<th>Location</th>
+	<th>City</th>
+	<th>Hotel</th>
 	<th>Checkin</th>
 	<th>Checkout</th>
-	<th>Hotel</th>
+	
 	<th></th>
 	<th></th>
 </tr> 
@@ -38,9 +48,10 @@
   <tr>
     <td><%= link_to accomodation.guest.guest_name, accomodation  %></td>
     <td><%= accomodation.location %></td>
-    <td><%= accomodation.checkin %></td>
-    <td><%= accomodation.checkout %></td>
-    <td><%= accomodation.hotel.hotel_name %></td>
+     <td><%= accomodation.hotel.hotel_name %></td>
+    <td><%= accomodation.checkin.strftime('%m/%d/%Y') %></td>
+    <td><%= accomodation.checkout.strftime('%m/%d/%Y') %></td>
+   
     <td><%= link_to 'Edit', edit_accomodation_path(accomodation) %></td>
     <td><%= link_to 'Destroy', accomodation, :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>
@@ -66,22 +77,24 @@
   	<%= f.hidden_field :guest_id, :value => @guest.id %>
     </div><br />
   <div class="field">
-    <%= f.label :location %>
-    <%= f.text_field :location %>
+    <%= f.label :City %>
+    <%= select("accomodation", "location", [ 'Madinah', 'Mekkah', 'Jeddah' ], {:include_blank => 'None'}) %>
+    
   </div><br />
-  <div class="field">
-    <%= f.label :checkin %>
-    <%= f.datetime_select :checkin %>
-  </div><br />
-  <div class="field">
-    <%= f.label :checkout %>
-    <%= f.datetime_select :checkout %>
-  </div><br />
-  <div class="field">
+   <div class="field">
     <%= f.label :hotel_id %>
 	<%= select("accomodation", "hotel_id", Hotel.all.collect {|a| [ a.hotel_name, a.id ] }, {:include_blank => 'None'}) %>
     <% # f.text_field :hotel_id %>
   </div><br />
+  <div class="field">
+    <%= f.label :checkin %>
+    <%= f.datetime_select :checkin,:order => [:day, :month, :year, :hour, :minute] %>
+  </div><br />
+  <div class="field">
+    <%= f.label :checkout %>
+    <%= f.datetime_select :checkout,:order => [:day, :month, :year, :hour, :minute] %>
+  </div><br />
+ 
   <div class="actions" align="center">
     <%= f.submit %>
   </div>
